@@ -19,7 +19,7 @@ public class LoginPage {
         String title2 = driver.getTitle();
         // System.out.println(title2);
         Assert.assertEquals("Amazon Sign-In", title2);
-
+        driver.quit();
 
 
     }
